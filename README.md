@@ -1,75 +1,36 @@
-# Nuxt Minimal Starter
+# MineTrack
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A mining operations and safety management system. This is the **frontend** for the ITE 18 midterm project (Caraga State University, College of Computing and Information Sciences).
 
-## Setup
+## What it does
 
-Make sure to install dependencies:
+MineTrack helps a mining company track its sites, equipment, workers and safety, replacing paper logs and scattered spreadsheets.
+
+## User roles
+
+- **Admin:** manages users, sites and all records
+- **Site Supervisor:** logs production and shifts, assigns equipment and workers
+- **Safety Officer:** files incident reports and runs inspections
+- **Worker:** views their own schedule and reports hazards
+
+The sidebar menu changes depending on the role that is logged in.
+
+## Built with
+
+- Nuxt 4 (Vue 3)
+- Pinia (state management)
+- Mock data in `public/mock/` (will be replaced by the backend API at the Final)
+
+## How to run it
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+Then open http://localhost:3000 and sign in with any name and a role.
 
-Build the application for production:
+## Team
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- Junrie D. Murillo (Frontend)
+- Prince Panganiban (Frontend)
