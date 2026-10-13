@@ -10,6 +10,6 @@ const title = computed(() => {
 <template>
   <section>
     <h1>{{ title }}</h1>
-    <p class="subtitle">This screen is designed in Figma and will be built for the Final.</p>
+    <p class="subtitle">(For finals na ni).</p>
   </section>
 </template>
