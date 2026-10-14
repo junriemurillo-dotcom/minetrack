@@ -4,7 +4,14 @@ const open = ref(false)
 
 <template>
   <div>
-    <button class="menu-btn" aria-label="Toggle menu" @click="open = !open">☰</button>
+    <button
+      class="menu-btn"
+      aria-label="Toggle menu"
+      :aria-expanded="open"
+      @click="open = !open"
+    >
+      ☰
+    </button>
     <AppSidebar :open="open" @navigate="open = false" />
     <div class="content">
       <slot />
@@ -33,7 +40,8 @@ const open = ref(false)
     color: #fff;
     border: 0;
     border-radius: 6px;
+    cursor: pointer;
   }
-  .content { padding-top: 4rem; }
+  .content { padding-top: 4.5rem; }
 }
 </style>
