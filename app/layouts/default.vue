@@ -17,7 +17,7 @@ const open = ref(false)
 .menu-btn { display: none; }
 
 @media (min-width: 768px) {
-  .content { margin-left: 240px; }
+  .content { margin-left: 280px; }
 }
 
 @media (max-width: 767px) {
