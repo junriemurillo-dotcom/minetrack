@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": [
+    { "id": "INC-0241", "title": "Hydraulic leak on Excavator EX-12", "site_name": "North Ridge", "severity": "high", "status": "open", "reported_at": "2026-10-14T09:42:00" },
+    { "id": "INC-0240", "title": "Loose guard rail near crusher", "site_name": "West Quarry", "severity": "medium", "status": "open", "reported_at": "2026-10-13T15:10:00" },
+    { "id": "INC-0239", "title": "PPE compliance observation", "site_name": "East Basin", "severity": "low", "status": "open", "reported_at": "2026-10-12T11:25:00" },
+    { "id": "INC-0238", "title": "Dust level above threshold", "site_name": "North Ridge", "severity": "medium", "status": "closed", "reported_at": "2026-10-10T08:05:00" }
+  ]
+}
