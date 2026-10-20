@@ -121,7 +121,7 @@ function logout() {
   background: var(--dark-light); border-radius: 12px; padding: 0.75rem;
 }
 .dot { width: 8px; height: 8px; border-radius: 50%; background: #22c55e; }
-.site-label { margin: 0; font-size: 0.7rem; letter-spacing: 0.08em; color: #9ca3af; }
+.site-label { margin: 0; font-size: 0.7rem; letter-spacing: 0.08em; color: #d1d5db; }
 .site-name { margin: 0; font-weight: 600; }
 
 nav { display: flex; flex-direction: column; gap: 0.25rem; overflow-y: auto; }
