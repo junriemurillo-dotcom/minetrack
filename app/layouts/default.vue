@@ -13,9 +13,9 @@ const open = ref(false)
       ☰
     </button>
     <AppSidebar :open="open" @navigate="open = false" />
-    <div class="content">
+    <main class="content">
       <slot />
-    </div>
+    </main>
   </div>
 </template>
 
