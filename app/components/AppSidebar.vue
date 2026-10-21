@@ -151,7 +151,7 @@ nav a.router-link-exact-active .chev { display: block; }
 .logout { background: none; border: 0; color: #d1d5db; cursor: pointer; padding: 0.25rem; }
 
 @media (max-width: 767px) {
-  .sidebar { transform: translateX(-100%); transition: transform 0.2s; padding-top: 4rem; }
-  .sidebar.open { transform: translateX(0); }
+ .sidebar { transform: translateX(-100%); visibility: hidden; transition: transform 0.2s, visibility 0s 0.2s; padding-top: 4rem; }
+  .sidebar.open { transform: translateX(0); visibility: visible; transition: transform 0.2s; }
 }
 </style>
